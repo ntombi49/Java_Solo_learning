@@ -39,7 +39,7 @@ public class variablesPractice {
     
     String favoriteFood = "Pasta";
     String favoriteColor = "Brown";
-    String favoriteNumber = "28";
+    int favoriteNumber = 28;
 
     System.out.println("My favorite food is " + favoriteFood);
     System.out.println("My favorite color is " + favoriteColor);
@@ -60,9 +60,9 @@ public class variablesPractice {
     int num1 = 28;
     int num2 = 21;
 
-    System.out.println(num1 + num2);
-    System.out.println(num1 - num2);
-    System.out.println(num1 * num2);
+    System.out.println("Sum = " + (num1 + num2));
+    System.out.println("Difference = " + (num1 - num2));
+    System.out.println("Product = " + (num1 * num2));
 
 
 // Exercise 4 — Student Info
