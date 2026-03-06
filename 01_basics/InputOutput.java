@@ -33,18 +33,45 @@
 // 4️⃣ Reading Text (String)
 // Example program:
 
-import java.util.Scanner;
+// 4️⃣ Reading Text (String)
+// Example program:
 
-public class Inputoutput {
-    public static void main(String[] args) {
+// import java.util.Scanner;
 
-        Scanner input = new Scanner(System.in);
+// public class InputExample {
+//     public static void main(String[] args) {
 
-        System.out.println("What is your name?");
+//         Scanner input = new Scanner(System.in);
 
-        String name = input.nextLine();
+//         System.out.println("What is your name?");
 
-        System.out.println("Hello " + name);
+//         String name = input.nextLine();
 
-    }
-}
+//         System.out.println("Hello " + name);
+
+//     }
+// }
+
+// 5️⃣ Understanding nextLine()
+// This is important.
+
+// input.nextLine()
+// means:
+
+// Read everything the user types until they press ENTER
+
+// 6️⃣ Reading Numbers
+// If we want numbers, we use different methods.
+
+// Integer
+// int age = input.nextInt();
+
+// Double (decimal numbers)
+// double height = input.nextDouble();
+
+// | Method       | What it reads |
+// | ------------ | ------------- |
+// | nextLine()   | full sentence |
+// | nextInt()    | integer       |
+// | nextDouble() | decimal       |
+
