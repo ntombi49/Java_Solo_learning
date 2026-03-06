@@ -60,6 +60,8 @@ public class variablesPractice {
     int num1 = 28;
     int num2 = 21;
 
+    // ("text " + (math))
+    
     System.out.println("Sum = " + (num1 + num2));
     System.out.println("Difference = " + (num1 - num2));
     System.out.println("Product = " + (num1 * num2));
