@@ -11,7 +11,7 @@ public class InputOutputPractice {
 // Then print:
 // Nice to meet you, ___
 
-    System.out.print("What is your name? ");
+    System.out.println("What is your name? ");
 
     String name = scanner.nextLine();
     System.out.println("Nice to meet you " + name);
@@ -23,13 +23,12 @@ public class InputOutputPractice {
 // Then print:
 // Next year you will be ___
     
-    System.out.print("How old are you? ");
+    System.out.println("How old are you? ");
 
     int age = scanner.nextInt();
     int newAge = age + 1;
 
     System.out.println("Next year you will be " + newAge);
-    scanner.nextLine();
 
 
 // // Exercise 3
@@ -39,7 +38,7 @@ public class InputOutputPractice {
 // You live in ___
 
     
-    System.out.print("What city do you live in? ");
+    System.out.println("What city do you live in? ");
     String city = scanner.nextLine();
     
     System.out.println("You live in " + city);
@@ -50,8 +49,8 @@ public class InputOutputPractice {
 // Print:
 // Sum = ___
 
-    System.out.print("Enter num1: ");
-    System.out.print("Enter num2: ");
+    System.out.println("Enter num1: ");
+    System.out.println("Enter num2: ");
 
     int num1 = scanner.nextInt();scanner.nextLine();
     int num2 = scanner.nextInt();
