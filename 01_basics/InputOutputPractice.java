@@ -26,6 +26,7 @@ public class InputOutputPractice {
     System.out.println("How old are you? ");
 
     int age = scanner.nextInt();
+    scanner.nextLine();
     int newAge = age + 1;
 
     System.out.println("Next year you will be " + newAge);
@@ -50,9 +51,14 @@ public class InputOutputPractice {
 // Sum = ___
 
     System.out.println("Enter num1: ");
+<<<<<<< HEAD
     System.out.println("Enter num2: ");
 
     int num1 = scanner.nextInt();scanner.nextLine();
+=======
+    int num1 = scanner.nextInt();
+    System.out.println("Enter num2: ");
+>>>>>>> 7cd9aebafe6b70fb5315c7743fd462ec9feba14e
     int num2 = scanner.nextInt();
 
     System.out.println("Sum = " + (num1 + num2));
