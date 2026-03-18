@@ -52,6 +52,8 @@ public class InputOutputPractice {
 
     System.out.println("Enter num1: ");
     int num1 = scanner.nextInt();
+    scanner.nextLine();
+    
     System.out.println("Enter num2: ");
     int num2 = scanner.nextInt();
 
