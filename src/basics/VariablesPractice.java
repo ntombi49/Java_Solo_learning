@@ -68,5 +68,54 @@ public class VariablesPractice {
         score = 75;
         System.out.println(score);
 
+        // ========================
+        // Exercise 5 — Arithmetic
+        // ========================
+
+        int a = 15;
+        int b = 4;
+
+        System.out.println("Addition: " + (a + b));
+        System.out.println("Subtraction: " + (a - b));
+        System.out.println("Multiplication: " + (a * b));
+        System.out.println("Division: " + (a / b));
+        System.out.println("Remainder: " + (a % b));
+
+        // ========================
+        // Exercise 6 — Even or Odd
+        // ========================
+
+        int number = 7;
+        // Print remainder when divided by 2
+        System.out.println("Remainder: " + (number % 2));
+
+        // ========================
+        // Exercise 7 — Fix Division
+        // ========================
+
+        // Make this print decimal result (3.5)
+
+        double x = 7;
+        int y = 2;
+
+        System.out.println("Results: " + (x/y));
+
+        // ========================
+        // Exercise 8 — Challenge 🔥
+        // ========================
+
+        // Create 2 numbers
+        // Print:
+        // Their sum
+        // Their average (IMPORTANT — think carefully)
+
+        int number1 = 20;
+        int number2 = 10;
+
+        System.out.println("Sum: " + (number1 + number2));
+
+        double average = (number1 + number2) / 2;
+        System.out.println("Average: " + average);
+
     }
 }
