@@ -76,7 +76,6 @@ public class IfElsePractice {
             System.out.println("Access denied");
         }
 
-
         input.close();
     }
 }

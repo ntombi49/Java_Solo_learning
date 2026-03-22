@@ -1,9 +1,9 @@
 package controlflow;
 
-public class LoopsPractice {
+public class FoorLoopsPractice {
     public static void main(String[] args) {
 
-        // Your code starts here
+
 
     }
 }
